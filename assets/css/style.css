@@ -50,6 +50,7 @@ li:hover{
     color: #fff;
     background-color: #777;
 }
+
 h2 {
     background-color: #fff;
     font-size: 36px;
@@ -143,4 +144,19 @@ input {
      height: 40px;
      position: relative;
      bottom: 65px;
+ }
+
+ #submitButton{
+     text-align: center;
+     background-color: #4aaaa5;
+     color: #fff;
+     width: 150px;
+     padding: 20px;
+ }
+
+ #submitButton:hover {
+    background-color: #fff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+    cursor: pointer;
  }
