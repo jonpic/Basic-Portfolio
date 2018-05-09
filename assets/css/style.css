@@ -43,12 +43,16 @@ li {
     color: #777;
     border-left: 1px solid #777;
     border-right: 1px solid #777;
-    
+    position: relative;
 }
 
 li:hover{
     color: #fff;
     background-color: #777;
+}
+
+li:active{
+    top: 2px;
 }
 
 h2 {
@@ -159,4 +163,9 @@ input {
     color: #4aaaa5;
     border: 1px solid #4aaaa5;
     cursor: pointer;
+    position: relative;
+ }
+
+ #submitButton:active {
+    top: 2px;
  }
